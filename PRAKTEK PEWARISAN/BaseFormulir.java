@@ -1,8 +1,8 @@
 public abstract class BaseFormulir {
-    public String nama;
-    public String alamat;
-    public String no_hp;
-    public String prodi;
+    protected String nama;
+    protected String alamat;
+    protected String no_hp;
+    protected String prodi;
 
     public void cara_bayar() {
         System.out.println("cara bayar secara umum");    

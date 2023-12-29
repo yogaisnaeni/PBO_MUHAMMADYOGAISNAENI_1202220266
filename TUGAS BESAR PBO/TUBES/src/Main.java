@@ -273,20 +273,12 @@ public class Main {
                 System.out.println("pengaduan ditemukan");
                 System.out.println("kode pengaduan: " + pengaduan.getKodePengaduan());
                 System.out.print("tekan enter untuk menanggapi pengaduan ... ");
-                String pilihan = scanner.nextLine();
-                if (pilihan.equals(pilihan)) {
-                    pengaduan.tanggapiPengaduan();
-                    break;
-
-                } else {
-                    System.out.println("status tidak berubah");
-                }
-
+                scanner.nextLine();
+                System.out.println("keluhan telah ditanggapi");
             } else {
                 System.out.println("kode tidak ditemukan");
             }
         }
-        System.out.println("\nTekan enter untuk melanjutkan ...");
         scanner.nextLine();
         showMenu();
     }
